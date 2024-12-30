@@ -2,20 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ body{
+  background-color: black;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media(min-width:768px){
+header{
+  background-color:orange;
+  position: sticky;
+ bottom: 0;
+  z-index: 1000; /* Make sure it's above other content */
+}}
+@media(max-width:768px){
+  header{
+    background-color:orange;
+    position: sticky;
+   bottom: 0;
+    z-index: 1000; /* Make sure it's above other content */
+;} 
+   
+}
+.img{
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: auto;
+} 
+ p{
+  color: white;
+  
+ }
+ button{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: solid orangered 5px;
+  border-radius: 10%;
+ }
+ button:hover{
+  background-color:whitesmoke;
+  
+ }
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .alisha{
+  border: solid red 8px;
+ }
+ @media(min-width:768px){
+  .img3{
+    height: "50%";
+    width: "50%";
   }
+ }
+ @media(max-width:768px){ .img3{
+  height: "50%";
+  width: "50%";
+}}
+header {
+  position: sticky;
+ bottom: 0;
+  z-index: 1000; /* Make sure it's above other content */
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.p1{
+  border: solid orange 5px;
+}
+.p2{
+  border: solid black ;
 }

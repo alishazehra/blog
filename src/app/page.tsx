@@ -1,101 +1,46 @@
-import Image from "next/image";
-
-export default function Home() {
+import React from 'react'
+import Home from './home/page'
+import Link from 'next/link'
+const Page = () => {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      <header className='header'><img className='img'  src="https://th.bing.com/th/id/OIP.dQrRBTJmfE10KH2DMygDwQHaHa?rs=1&pid=ImgDetMain" alt="me"  />
+      </header>
+   <Home/>
+   <br />
+   <strong className='text-white text-4xl flex gap-2 '>Welcome to the Food Blog</strong>
+   <strong className='text-white'>Here, you can enjoy dishes of upto 700 resturants delicious food</strong>
+   <br />
+   <br />
+  <div className="flex gap-2" ><img   src="https://th.bing.com/th/id/OIP.jD6Z1sPoSQdfhQ02_lD2awHaHa?w=740&h=740&rs=1&pid=ImgDetMain" alt="biryani" height={"30%"} width={"30%"} /> 
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  <img  src="https://th.bing.com/th/id/OIP.2dhr5Ln6cMHIu9SmwE_uBgHaE7?rs=1&pid=ImgDetMain"  height={"40%"} width={"40%"}/>
+  <img src="https://th.bing.com/th/id/OIP.gO4IUyMCJ4K2mHVxn6ycIAHaHa?w=560&h=560&rs=1&pid=ImgDetMain" alt="burger" height={"30%"} width={"30%"} />
+    </div>  <p> Chicken Biryani <br /> Rs.500 </p>  <p className='text-center'>Pizza <br /> Rs.300 only Large</p> <p className='text-end'>Chicken Salan <br />Rs.900 only</p>
+   <div className='flex gap-1'> <img  src="https://th.bing.com/th/id/OIP.36JmYTXI27pq7lD2NlFDvAHaLH?w=800&h=1200&rs=1&pid=ImgDetMain" alt="" height={"30%"} width={"30%"}  /> 
+   <img src="https://th.bing.com/th/id/R.926e7fb35388b6966dfa08f09d82026d?rik=SHHNT4ktb9I8Hg&riu=http%3a%2f%2fassets.marthastewart.com%2fstyles%2fwmax-520-highdpi%2fd17%2fmh_1036_spaghetti%2fmh_1036_spaghetti_hd.jpg%3fitok%3dxfXN9gM9&ehk=GOuAaJRby56c%2fz1h7LGZGiYPRbc2MJCPgXVFiTAW0EM%3d&risl=&pid=ImgRaw&r=0" alt="pasta" height={"30%"} width={"40%"}/>
+    <img src="https://th.bing.com/th/id/R.28df40f71e98c045513e20e7d2b20004?rik=w3UmUgRvdJYz7Q&pid=ImgRaw&r=0" alt="noodles" height={"30%"} width={"30%"} />
+    
     </div>
-  );
+    <p>Chicken Burger <br /> Rs.300</p> <p className='text-center'>Red Sauce Pasta <br /> Rs.1000</p> <p className='text-end'>Noodles <br /> Rs.50</p>
+    <div className='flex gap-2'>
+    <img src="https://th.bing.com/th/id/OIP.qP3_yNeDaoUM-Oc5USFNZwHaFa?rs=1&pid=ImgDetMain" alt="steak" width={"30%"} height={"30%"} />
+    <img src="https://th.bing.com/th/id/OIP.VMndNouZGkMwTHVQHapigwHaE8?rs=1&pid=ImgDetMain" alt="steak" height={"40%"} width={"40%"} />
+    <img src="https://th.bing.com/th/id/OIP.CrpyjP92iF2Wg-pvGjXYOwHaEK?rs=1&pid=ImgDetMain" alt="kheer" height={"30%"} width={"30%"} />
+    </div>
+    <p>Broast <br /> New Year Special deal</p>
+    <p className='text-center'>Steak <br /> Rs.3000</p>
+    <p className='text-end'>Kheer <br /> Rs.100</p>
+    <div className='container'>
+    <button ><Link href="/orders">Order Now</Link> </button> </div> <br />
+    <div  className='flex gap-8'> <strong className='text-white '>Shami kabab or shaami kabab is a South Asian variety of kebab, <br /> composed of a <br /> shallow fried small patty of minced meat, generally beef, <br /> but occasionally lamb or mutton (a chicken version exists as well), <br /> with ground chickpeas, egg as binder, and spices. <br /> It originates from the Lucknow region of the Indian </strong><img  src="https://th.bing.com/th/id/R.da99f9d665e84a6c675810314540c992?rik=kzusRhmQLYe47w&pid=ImgRaw&r=0" alt="gol gappay" height={"30%"} width={"30%"}/></div><br />
+    <div className="flex gap-2"><strong className='text-white'>provident eveniet nemo dicta neque? Minus atque deleniti aliquid dolores dignissimos aut odio obcaecati esse quod sectetur adipisicing elit. Officiis necessitatibus dolores dolore, aliquid temporibus, ipsam suscipit iure velit facilis odio sapiente quia modi non optio enim debitis eos! Dignissimos, officia!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolorem recusandae, culpa, impedit voluptates minus necessitatibus numquam dolor quos veniam non ab aspernatur porro illo illum. Porro hic sapiente dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, deserunt magnam error totam porro illum quasi aliquid facere itaque architecto obcaecati at voluptates? Quidem saepe nam, repudiandae odio et porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam quidem tenetur velit vel adipisci quia, sunt aperiam fugiat quae eligendi minima id modi obcaecati dignissimos deleniti fuga pariatur ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi libero ad fugiat, exercitationem temporibus repellendus eum sapiente, sed ut dolores suscipit numquam voluptatem explicabo nemo, autem molestiae laudantium beatae nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores consequuntur corporis quam veniam accusantium esse delectus doloribus nam temporibus necessitatibus hic architecto iusto in deleniti, porro ratione adipisci eius dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aut nesciunt numquam rem voluptas, eveniet nostrum similique itaque perspiciatis sit accusamus porro ea quod. Porro temporibus voluptas debitis? Incidunt, qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae in officiis aliquid veniam eos nobis officia tempora architecto. Neque eum dignissimos ad repellendus enim architecto debitis eos vero rerum.</strong><img src="https://th.bing.com/th/id/OIP.fd6jLJNTgaj-g517peCiGgHaKe?rs=1&pid=ImgDetMain" alt="menu" height={"40%"} width={"40%"} /> </div>
+    <br /><br />
+    <img className='alisha' src="https://th.bing.com/th/id/R.47e0dc38b95729b9519232afedda6fc8?rik=3GKH5YARFvJsuw&riu=http%3a%2f%2fzenzino.design%2fwp-content%2fuploads%2f2017%2f12%2f20171201_Restaurant-Homepage-NAP.jpg&ehk=6p9vpOrpk91Sitjoo48%2fPXe%2f28vUdvjilN8QytP19aE%3d&risl=&pid=ImgRaw&r=0" width={"full"} height={"full"} />
+    
+    </div> 
+     
+  )
 }
+
+export default Page
