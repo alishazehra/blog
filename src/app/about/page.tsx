@@ -15,7 +15,7 @@ const About = () => {
           Welcome to our restaurant, where exceptional dining meets a warm,
           inviting atmosphere. Our culinary team is dedicated to crafting
           mouthwatering dishes using only the finest, locally sourced
-          ingredients. Whether you're here for a casual meal or a special
+          ingredients. Whether you&apos;re here for a casual meal or a special
           celebration, we promise an unforgettable experience with every bite.
           From our signature creations to classic favorites, our menu offers
           something for every palate. Join us and savor the flavors that make our
