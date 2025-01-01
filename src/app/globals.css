@@ -39,6 +39,7 @@ header{
   font-size: 30px;
   border: solid orangered 5px;
   border-radius: 10%;
+  font-family: bold;
  }
  button:hover{
   background-color:whitesmoke;
@@ -50,7 +51,7 @@ header{
   align-items: center;
  }
  .alisha{
-  border: solid red 8px;
+  border: solid red 5px;
  }
  @media(min-width:768px){
   .img3{
@@ -71,5 +72,31 @@ header {
   border: solid orange 5px;
 }
 .p2{
-  border: solid black ;
+  border: solid orangered 5px ;
+}
+@media(min-width:768px){
+.container2{
+  height: 200;
+  width: 400;
+  background-color: black;
+  color: beige;
+  display: flex;
+  gap: 600px;
+}}
+.img9{
+  margin-right: auto;
+}
+@media(max-width:768px){
+  .container2{
+    height: 200;
+    width: 400;
+    background-color: black;
+    color: beige;
+    display: flex;
+    gap: 600px;
+  }}
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

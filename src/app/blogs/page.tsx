@@ -32,7 +32,7 @@ const Blogs = () => {
       </nav>
 
       {/* Blog Image */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center  border-2 border-black">
         <img
           className="p2"
           src="https://th.bing.com/th/id/OIP.9HdNj8GYwMgoN5DZji2jmQHaHa?rs=1&pid=ImgDetMain"
@@ -116,12 +116,7 @@ const Blogs = () => {
           officiis aliquid veniam eos nobis officia tempora architecto. Neque eum
           dignissimos ad repellendus enim architecto debitis eos vero rerum.
         </strong>
-        <img
-          src="https://th.bing.com/th/id/OIP.fd6jLJNTgaj-g517peCiGgHaKe?rs=1&pid=ImgDetMain"
-          alt="Menu Image"
-          height="40%"
-          width="40%"
-        />
+        
       </section>
 
       <br />

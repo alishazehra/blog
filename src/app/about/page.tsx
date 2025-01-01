@@ -10,7 +10,9 @@ const About = () => {
           alt="me"
         />
       </header>
+      <h1 className="text-center text-white font-bold sm:text-xl md:text-2xl lg:text-4xl">About Page</h1>
       <div className="flex gap-4">
+       
         <p>
           Welcome to our restaurant, where exceptional dining meets a warm,
           inviting atmosphere. Our culinary team is dedicated to crafting
@@ -22,20 +24,7 @@ const About = () => {
           restaurant a true culinary destination.
           <br />
           <br />
-          Adipisicing elit. Aspernatur iusto doloribus eius error et maxime
-          quisquam, pariatur commodi soluta ab similique, debitis consequuntur
-          fuga sint deserunt exercitationem molestiae ut architecto? Lorem,
-          ipsum dolor sit amet consectetur adipisicing elit. Iusto architecto quia
-          labore nesciunt, rerum provident. Suscipit, quam fugit consequatur fuga
-          reiciendis similique deserunt facilis, cumque harum et numquam, vero
-          placeat. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Obcaecati suscipit quibusdam molestiae debitis esse minus repudiandae
-          molestias odio sit, id sint deserunt ut voluptate accusantium facere
-          dolorem dolore quos placeat? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Omnis sequi minima alias ad eum rem incidunt illo
-          esse commodi? Reiciendis, reprehenderit facilis. Cum impedit ea natus,
-          asperiores eligendi quod ut. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Cumque illum porro maxime necessitatibus dolorem
+         porro maxime necessitatibus dolorem
           consectetur dolorum velit incidunt accusamus veniam deserunt fugiat
           ipsum cupiditate magni provident, inventore accusantium tempore
           voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit.

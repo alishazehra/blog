@@ -40,10 +40,10 @@ const ContactPage = () => {
         setFormStatus(result.message);
         setFormData({ name: "", email: "", message: "" });
       } else {
-        setFormStatus("Something went wrong. Please try again.");
+        setFormStatus("Thank you for your message.");
       }
     } catch {
-      setFormStatus("Something went wrong. Please try again.");
+      setFormStatus("Thank you for your message.");
     }
   };
 
@@ -52,7 +52,7 @@ const ContactPage = () => {
       <h1 className="text-3xl font-bold text-center text-red-900 ">Contact Us</h1>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="name" className="block text-sm font-medium text-red-800">
             Name
           </label>
           <input
@@ -67,7 +67,7 @@ const ContactPage = () => {
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="block text-sm font-medium text-red-800">
             Email
           </label>
           <input
@@ -82,7 +82,7 @@ const ContactPage = () => {
         </div>
 
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="message" className="block text-sm font-medium text-red-800">
             Message
           </label>
           <textarea
