@@ -53,16 +53,13 @@ header{
  .alisha{
   border: solid red 5px;
  }
- @media(min-width:768px){
+
   .img3{
     height: "50%";
     width: "50%";
   }
- }
- @media(max-width:768px){ .img3{
-  height: "50%";
-  width: "50%";
-}}
+ 
+ 
 header {
   position: sticky;
  bottom: 0;

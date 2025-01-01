@@ -36,13 +36,7 @@ const About = () => {
           voluptas similique possimus explicabo voluptate error consectetur,
           mollitia esse at.
         </p>
-        <img
-          className="img3"
-          src="https://th.bing.com/th/id/OIP.QS1Svihp6bQYp9jRO10cNwHaEK?rs=1&pid=ImgDetMain"
-          alt="lava cake"
-          height={"50%"}
-          width={"50%"}
-        />
+        
       </div>
     </div>
   );
