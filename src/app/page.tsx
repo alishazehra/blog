@@ -19,16 +19,16 @@ const Page = () => {
  
     </div> <br />
     <div className="flex justify-between items-center  ">
-      <button className=" text-black bg-orange-500 hover:bg-blue-700 rounded-lg rounded-md rounded-sm font-bold ">
+      <button className=" text-black bg-orange-500 hover:bg-red-700 rounded-lg rounded-md rounded-sm font-bold ">
        Chicken Biryani <br /> Rs.250
       </button>
 
-      <button className=" text-black text-bold bg-orange-500 hover:bg-green-700 rounded-lg rounded-md rounded-sm font-bold ">
+      <button className=" text-black text-bold bg-orange-500 hover:bg-red-700 rounded-lg rounded-md rounded-sm font-bold ">
         Fajita Pizza <br /> Rs.900
       </button>
 
       <button className=" text-black bg-orange-500 hover:bg-red-700 rounded-lg rounded-md rounded-sm  font-bold ">
-       Chicken Krachi <br /> Rs.450
+       Chicken Karahi <br /> Rs.450
       </button>
     </div>
    <div className='flex gap-1'> <img  src="https://th.bing.com/th/id/OIP.36JmYTXI27pq7lD2NlFDvAHaLH?w=800&h=1200&rs=1&pid=ImgDetMain" alt="" height={"30%"} width={"30%"}  /> 
@@ -37,11 +37,11 @@ const Page = () => {
     </div>
     <br />
     <div className="flex justify-between items-center  ">
-      <button className=" text-black bg-orange-500 hover:bg-blue-700 rounded-lg rounded-md rounded-sm font-bold ">
+      <button className=" text-black bg-orange-500 hover:bg-red-700 rounded-lg rounded-md rounded-sm font-bold ">
        Chicken Burger <br /> Rs.400
       </button>
 
-      <button className=" text-black text-bold bg-orange-500 hover:bg-green-700 rounded-lg rounded-md rounded-sm  font-bold  ">
+      <button className=" text-black text-bold bg-orange-500 hover:bg-red-700 rounded-lg rounded-md rounded-sm  font-bold  ">
         Red Pasta <br /> Rs.900
       </button>
 
@@ -61,7 +61,7 @@ const Page = () => {
      New Year Special deal   <br /> Rs.400
       </button> */}
       <div className="flex justify-center items-center ">
-  <button className="text-black  bg-orange-500 hover:bg-green-700 font-bold rounded-lg rounded-md rounded-sm">
+  <button className="text-black  bg-orange-500 hover:bg-red-700 font-bold rounded-lg rounded-md rounded-sm">
 Amazing offer! New Year Special deal   <br /> Rs.600
   </button>
 {/* </div> */}
@@ -72,7 +72,7 @@ Amazing offer! New Year Special deal   <br /> Rs.600
     <button ><Link href="/orders">Order Now</Link> </button> </div> <br />
     <div >
    <img className='border' src=" https://th.bing.com/th/id/R.da99f9d665e84a6c675810314540c992?rik=kzusRhmQLYe47w&pid=ImgRaw&r=0" alt="menu"  height={"50%"} width={"50%"} />
-   <strong className='text-white '> Shami kabab or shaami kabab is a South Asian variety of kebab, compom. Officiis sit quia earum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, doloremque minima? Exercitationem nulla natus praesentium corporis eveniet soluta sunt, excepturi minima obcaecati molestias hic consequuntur of amazing shami kababs</strong>
+   <strong className='text-white '> Shami kabab or shaami kabab is a South Asian variety of kebab, compom. The regular dish in Pakistan. Beef Kababs with chutney made with beef  consectetur adipisicing elit. Quo, doloremque minima? Exercitationem nulla natus praesentium corporis eveniet soluta sunt, excepturi minima obcaecati molestias hic combination of amazing shami kababs</strong>
    </div> <hr />
    <div >
     
@@ -80,9 +80,9 @@ Amazing offer! New Year Special deal   <br /> Rs.600
    <strong className="text-white"> Burgers are the most popular street food snack in Pakistan, this lentil/gram dumpling is flooded with seasoned yogurt it is prepared by soaking baray in thick yogurt Dahi Baray, which is adored by almost everyone, In the method below, I have clearly mentioned each and every step in detail. One of the most important things here is gram batter which needs correct consistency and then frying the baray. </strong> </div>
    <hr />
    <div ><img className='border' src="https://foodnerd.s3-eu-west-1.amazonaws.com/production/blog/cover_image/19/Foodnerd-best-pakistani-food-dishes.jpg" alt="food" height={"50%"} width={"50%"} /><strong className='text-white'>Pakistan has some of the most diverse and flavorful recipes in the world due to the infinite amount of special herbs and spices available, and each traditional dish comes with a deep history that connects it to a particular province. The versatile geography, ranging from deserts to the world’s highest mountain peaks, creates a wide variety of different types of recipes, each with a unique taste. 
-Biryani Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem doloremque eligendi quibusdam quod nesciunt ipsa incidunt recusandae reiciendis? Qui in enim deleniti reprehenderit ut minima biryani.</strong> </div>
+Biryani  with beef white rice with chicken . Sequi voluptatem doloremque eligendi quibusdam quod nesciunt ipsa incidunt recusandae reiciendis? Qui in enim deleniti reprehenderit ut minima biryani.</strong> </div>
 <hr />
-<div ><img className='border' src="https://cdn.tasteatlas.com/Images/Dishes/e668e32ae1a3423c95fbd4d77f8c940c.jpg" alt="samosa" height={"50%"} width={"50%"} /> <strong className='text-white'>The samosa is prepared with an all-purpose flour (locally known as maida) and stuffed with a filling, often a mixture of diced and cooked or mashed boiled potato (preferably diced), onions, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia  vel delicious. Samosas are best food for snacks, kids like samosas, there varieties of samosas, chicken samosa , keema samosa etc.</strong> </div>
+<div ><img className='border' src="https://cdn.tasteatlas.com/Images/Dishes/e668e32ae1a3423c95fbd4d77f8c940c.jpg" alt="samosa" height={"50%"} width={"50%"} /> <strong className='text-white'>The samosa is prepared with an all-purpose flour (locally known as maida) and stuffed with a filling, often a mixture of diced and cooked or mashed boiled potato (preferably diced), onions,  consectetur adipisicing elit. Officia  vel delicious. Samosas are best food for snacks, kids like samosas, there varieties of samosas, chicken samosa , keema samosa etc.</strong> </div>
 <br />
     <img className='alisha' src="https://th.bing.com/th/id/R.47e0dc38b95729b9519232afedda6fc8?rik=3GKH5YARFvJsuw&riu=http%3a%2f%2fzenzino.design%2fwp-content%2fuploads%2f2017%2f12%2f20171201_Restaurant-Homepage-NAP.jpg&ehk=6p9vpOrpk91Sitjoo48%2fPXe%2f28vUdvjilN8QytP19aE%3d&risl=&pid=ImgRaw&r=0" width={"full"} height={"full"} />
        
