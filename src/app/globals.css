@@ -100,3 +100,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.border{
+  border: solid orangered 5px;
+}

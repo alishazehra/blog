@@ -27,7 +27,7 @@ const Blogs = () => {
           <li>
             <Link href="/blogs">Blogs</Link>
           </li>
-          <li>Orders</li>
+          <li> <Link href={"/orders"}>Orders</Link></li>
         </ul>
       </nav>
 
